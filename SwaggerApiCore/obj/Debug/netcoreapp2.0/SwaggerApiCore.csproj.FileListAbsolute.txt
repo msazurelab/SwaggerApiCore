@@ -1,0 +1,8 @@
+c:\users\stanl\source\repos\SwaggerApiCore\SwaggerApiCore\bin\Debug\netcoreapp2.0\SwaggerApiCore.deps.json
+c:\users\stanl\source\repos\SwaggerApiCore\SwaggerApiCore\bin\Debug\netcoreapp2.0\SwaggerApiCore.runtimeconfig.json
+c:\users\stanl\source\repos\SwaggerApiCore\SwaggerApiCore\bin\Debug\netcoreapp2.0\SwaggerApiCore.runtimeconfig.dev.json
+c:\users\stanl\source\repos\SwaggerApiCore\SwaggerApiCore\bin\Debug\netcoreapp2.0\SwaggerApiCore.dll
+c:\users\stanl\source\repos\SwaggerApiCore\SwaggerApiCore\obj\Debug\netcoreapp2.0\SwaggerApiCore.csprojResolveAssemblyReference.cache
+c:\users\stanl\source\repos\SwaggerApiCore\SwaggerApiCore\obj\Debug\netcoreapp2.0\SwaggerApiCore.csproj.CoreCompileInputs.cache
+c:\users\stanl\source\repos\SwaggerApiCore\SwaggerApiCore\obj\Debug\netcoreapp2.0\SwaggerApiCore.AssemblyInfoInputs.cache
+c:\users\stanl\source\repos\SwaggerApiCore\SwaggerApiCore\obj\Debug\netcoreapp2.0\SwaggerApiCore.AssemblyInfo.cs
