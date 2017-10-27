@@ -9,10 +9,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using Swashbuckle.AspNetCore.Swagger;
-using Microsoft.Extensions.PlatformAbstractions;
-using System.IO;
 
-namespace SwaggerApiCore
+namespace SwaggerApiCore2
 {
     public class Startup
     {
@@ -27,32 +25,11 @@ namespace SwaggerApiCore
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
-
-
-            //var pathToDoc = Configuration["Swagger:FileName"];
-
             services.AddSwaggerGen(s =>
             {
                 s.SwaggerDoc("v1", new Info { Title = "ApiServices", Version = "v1" });
                 s.DescribeAllEnumsAsStrings();
             });
-
-            //services.ConfigureSwaggerGen(options =>
-            //{
-            //    options.SwaggerDoc("v1",
-            //        new Info
-            //        {
-            //            Title = "Geo Search API",
-            //            Version = "v1",
-            //            Description = "A simple api to search using geo location in Elasticsearch",
-            //            TermsOfService = "None"
-            //        }
-            //     );
-
-            //    var filePath = Path.Combine(PlatformServices.Default.Application.ApplicationBasePath, pathToDoc);
-            //    options.IncludeXmlComments(filePath);
-            //    options.DescribeAllEnumsAsStrings();
-            //});
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -61,9 +38,9 @@ namespace SwaggerApiCore
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
-                //app.UseBrowserLink();
             }
-            
+
+            app.UseMvc();
 
             app.UseSwagger(c =>
             {

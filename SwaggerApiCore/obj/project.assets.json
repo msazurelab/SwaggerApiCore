@@ -3106,6 +3106,21 @@
           "lib/netstandard1.5/StackExchange.Redis.StrongName.dll": {}
         }
       },
+      "Swashbuckle.AspNetCore/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1",
+          "Swashbuckle.AspNetCore.Swagger": "1.0.0",
+          "Swashbuckle.AspNetCore.SwaggerGen": "1.0.0",
+          "Swashbuckle.AspNetCore.SwaggerUI": "1.0.0"
+        },
+        "compile": {
+          "lib/netstandard1.6/Swashbuckle.AspNetCore.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.6/Swashbuckle.AspNetCore.dll": {}
+        }
+      },
       "Swashbuckle.AspNetCore.Swagger/1.0.0": {
         "type": "package",
         "dependencies": {
@@ -8021,6 +8036,17 @@
         "stackexchange.redis.strongname.nuspec"
       ]
     },
+    "Swashbuckle.AspNetCore/1.0.0": {
+      "sha512": "pYppc+iPifsAYUWi+UoblnjFkUtfP9RZfj5JQaUmEgiWRz5RsCcIuKHvNCGG5AojVKfgjWC4naUPJx4fCjqvDg==",
+      "type": "package",
+      "path": "swashbuckle.aspnetcore/1.0.0",
+      "files": [
+        "lib/net451/Swashbuckle.AspNetCore.dll",
+        "lib/netstandard1.6/Swashbuckle.AspNetCore.dll",
+        "swashbuckle.aspnetcore.1.0.0.nupkg.sha512",
+        "swashbuckle.aspnetcore.nuspec"
+      ]
+    },
     "Swashbuckle.AspNetCore.Swagger/1.0.0": {
       "sha512": "tzZ6tXjopV6jvcHzOX7PjyYBWqof5mhJUXqxb/kPF17Z5LXxr+uglnTLlYOjWCm5BfvdxWYtU95uJgc14L1Eqw==",
       "type": "package",
@@ -12617,6 +12643,7 @@
     ".NETCoreApp,Version=v2.0": [
       "Microsoft.AspNetCore.All >= 2.0.0",
       "Microsoft.NETCore.App >= 2.0.0",
+      "Swashbuckle.AspNetCore >= 1.0.0",
       "Swashbuckle.AspNetCore.SwaggerGen >= 1.0.0",
       "Swashbuckle.AspNetCore.SwaggerUi >= 1.0.0"
     ]
@@ -12631,11 +12658,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "c:\\users\\stanl\\source\\repos\\SwaggerApiCore\\SwaggerApiCore\\SwaggerApiCore.csproj",
+      "projectUniqueName": "C:\\github\\SwaggerApiCore\\SwaggerApiCore\\SwaggerApiCore.csproj",
       "projectName": "SwaggerApiCore",
-      "projectPath": "c:\\users\\stanl\\source\\repos\\SwaggerApiCore\\SwaggerApiCore\\SwaggerApiCore.csproj",
+      "projectPath": "C:\\github\\SwaggerApiCore\\SwaggerApiCore\\SwaggerApiCore.csproj",
       "packagesPath": "C:\\Users\\stanl\\.nuget\\packages\\",
-      "outputPath": "c:\\users\\stanl\\source\\repos\\SwaggerApiCore\\SwaggerApiCore\\obj\\",
+      "outputPath": "C:\\github\\SwaggerApiCore\\SwaggerApiCore\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -12677,6 +12704,10 @@
             "autoReferenced": true
           },
           "Swashbuckle.AspNetCore.SwaggerGen": {
+            "target": "Package",
+            "version": "1.0.0"
+          },
+          "Swashbuckle.AspNetCore": {
             "target": "Package",
             "version": "1.0.0"
           },

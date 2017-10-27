@@ -6,3 +6,15 @@ c:\users\stanl\source\repos\SwaggerApiCore\SwaggerApiCore\obj\Debug\netcoreapp2.
 c:\users\stanl\source\repos\SwaggerApiCore\SwaggerApiCore\obj\Debug\netcoreapp2.0\SwaggerApiCore.csproj.CoreCompileInputs.cache
 c:\users\stanl\source\repos\SwaggerApiCore\SwaggerApiCore\obj\Debug\netcoreapp2.0\SwaggerApiCore.AssemblyInfoInputs.cache
 c:\users\stanl\source\repos\SwaggerApiCore\SwaggerApiCore\obj\Debug\netcoreapp2.0\SwaggerApiCore.AssemblyInfo.cs
+C:\github\SwaggerApiCore\SwaggerApiCore\bin\Debug\netcoreapp2.0\SwaggerApiCore.xml
+C:\github\SwaggerApiCore\SwaggerApiCore\bin\Debug\netcoreapp2.0\SwaggerApiCore.deps.json
+C:\github\SwaggerApiCore\SwaggerApiCore\bin\Debug\netcoreapp2.0\SwaggerApiCore.runtimeconfig.json
+C:\github\SwaggerApiCore\SwaggerApiCore\bin\Debug\netcoreapp2.0\SwaggerApiCore.runtimeconfig.dev.json
+C:\github\SwaggerApiCore\SwaggerApiCore\bin\Debug\netcoreapp2.0\SwaggerApiCore.dll
+C:\github\SwaggerApiCore\SwaggerApiCore\bin\Debug\netcoreapp2.0\SwaggerApiCore.pdb
+C:\github\SwaggerApiCore\SwaggerApiCore\obj\Debug\netcoreapp2.0\SwaggerApiCore.csprojResolveAssemblyReference.cache
+C:\github\SwaggerApiCore\SwaggerApiCore\obj\Debug\netcoreapp2.0\SwaggerApiCore.csproj.CoreCompileInputs.cache
+C:\github\SwaggerApiCore\SwaggerApiCore\obj\Debug\netcoreapp2.0\SwaggerApiCore.AssemblyInfoInputs.cache
+C:\github\SwaggerApiCore\SwaggerApiCore\obj\Debug\netcoreapp2.0\SwaggerApiCore.AssemblyInfo.cs
+C:\github\SwaggerApiCore\SwaggerApiCore\obj\Debug\netcoreapp2.0\SwaggerApiCore.dll
+C:\github\SwaggerApiCore\SwaggerApiCore\obj\Debug\netcoreapp2.0\SwaggerApiCore.pdb
